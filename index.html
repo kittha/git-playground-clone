@@ -26,24 +26,19 @@
   <body>
     <div class="w-screen h-screen bg-white">
       <!--เริ่มเขียนใต้นี้ nat -->
-      <!-- HEADER: WHOLE HEADER SECTION WRAPPER -->
-      <div
-        class="max-md:flex max-md:flex-col max-md:align-top max-md:w-full pb-36"
+      <section
+        class="header-section-wrapper bg-gradient-to-b from-[#FFFBF4] to-[#F7FCF9] max-md:flex max-md:flex-col max-md:items-center max-md:w-full pb-24"
       >
-        <!-- nav bar wrapper-->
         <div
-          class="relative flex items-center gap-10 max-md:flex max-md:justify-between max-md:pt-[24px]"
+          class="nav-wrapper relative flex items-center gap-10 pb-9 max-md:flex max-md:justify-between max-md:pt-[2px] max-md:pb-[24px]"
         >
-          <!-- nav bar: logo -->
-
           <img
-            class="logo-top-left w-[130px] max-2xl:w-[120px] max-xl:w-[110px] max-lg:w-[100px] max-md:w-[59px] mt-[33px] max-md:mt-[24px] ml-[250px] max-2xl:ml-[150px] max-xl:ml-[75px] max-lg:ml-[40px] max-md:ml-[24px] mr-[100px] max-2xl:mr-[75px] max-xl:mr-[40px] max-lg:mr-[1px] max-md:mr-[1px] max-sm:mr-[1px] max-sm:h-[33px]"
+            class="nav-logo w-[130px] max-2xl:w-[120px] max-xl:w-[110px] max-lg:w-[100px] max-md:w-[59px] mt-[33px] max-md:mt-[24px] ml-[250px] max-2xl:ml-[150px] max-xl:ml-[75px] max-lg:ml-[40px] max-md:ml-[50px] mr-[100px] max-2xl:mr-[75px] max-xl:mr-[40px] max-lg:mr-[1px] max-md:mr-[1px] max-sm:mr-[1px] max-sm:h-[33px]"
             src="./image/section1/logo1.svg"
             alt="website logo"
           />
-          <!-- nav bar: menu list -->
           <div>
-            <nav class="flex rubik text-lg max-md:invisible">
+            <nav class="nav-menu flex rubik text-lg max-md:invisible">
               <ul class="flex items-center">
                 <div
                   class="flex mt-[59px] max-md:mt-[23px] gap-16 max-2xl:gap-12"
@@ -64,15 +59,13 @@
                     Academic
                   </li>
                 </div>
-                <!-- nav bar: [desktop] contact now button -->
                 <button
-                  class="absolute px-[30.5px] py-[19px] mt-[33px] max-md:mt-[0px] max-sm:mt-[0px] mr-[250px] max-2xl:mr-[175px] max-xl:mr-[100px] max-lg:mr-[50px] max-md:mr-[24px] text-white font-medium bg-[#111116] right-10 rounded-2xl shadow-inner hover:bg-gray-700 active:bg-gray-500 focus:ring-2 focus:ring-gray-500"
+                  class="nav-desktop absolute px-[30.5px] py-[19px] mt-[33px] max-md:mt-[0px] max-sm:mt-[0px] mr-[250px] max-2xl:mr-[175px] max-xl:mr-[100px] max-lg:mr-[24px] max-md:mr-[24px] text-white font-medium bg-[#111116] right-10 rounded-2xl shadow-inner hover:bg-gray-700 active:bg-gray-500 focus:ring-2 focus:ring-gray-500"
                 >
                   Contact Now
                 </button>
-                <!-- nav bar: [mobile] menu button (visible/invisible) -->
                 <img
-                  class="absolute w-[24px] right-4 max-md:visible md:max-2xl:invisible 2xl:invisible max-md:pt-[24px] max-md:mr-[24px] max-md:mt-[24px]"
+                  class="nav-mobile absolute w-[24px] right-4 max-md:visible md:max-2xl:invisible 2xl:invisible max-md:pt-[24px] max-md:mr-[30px] max-md:mt-[7px]"
                   src="./image/section1/category1.svg"
                   alt="mobile menu button"
                   width="25px"
@@ -83,57 +76,47 @@
           </div>
         </div>
 
-        <!-- hero section wrapper: start your future education: content & pictures -->
         <div
-          class="flex items-center justify-evenly mt-18 max-md:flex max-md:flex-col-reverse max-md:items-center max-md:w-fit"
+          class="hero-section-wrapper background-color:inherit flex items-center justify-evenly mt-18 max-md:flex max-md:flex-col-reverse max-md:items-start max-md:pb-20"
         >
-          <!-- hero section: content -->
-          <section
-            class="mt-3 max-md:mt-6 mr-40 max-2xl:mr-20 max-xl:mr-10 max:lg:mr-5 max-md:mr-2 card w-[566px] max-lg:w-[450px] max-md:w-72 h-[492px] max-md:h-96 max-md:flex max-md:flex-col max-md:items-start ml-[250px] max-2xl:ml-[150px] max-xl:ml-[75px] max-lg:ml-[24px] max-md:ml-[24px]"
+          <article
+            class="hero-section-content max-md:mt-1 mr-40 max-2xl:mr-20 max-xl:mr-3 max:lg:mr-3 max-md:mr-3 card w-[566px] max-lg:w-[450px] max-md:w-[288px] h-[492px] max-md:h-96 max-md:flex max-md:flex-col max-md:items-start ml-[250px] max-2xl:ml-[150px] max-xl:ml-[75px] max-lg:ml-[24px] max-md:ml-[24px]"
           >
             <p
-              class="poppins text-7xl max-6xl:text-5xl max-xl:text-4xl max:lg:text-3xl max-md:text-3xl font-bold poppins mt-[150px] max-2xl:mt-[100px] max-xl:mt-[75px] max-lg:mt-[40px] max-md:mt-[24px] max-md:w-48 max-md:font-bold"
+              class="poppins text-7xl max-6xl:text-5xl max-xl:text-4xl max:lg:text-3xl max-md:text-3xl font-bold poppins mt-[90px] max-2xl:mt-[90px] max-xl:mt-[90px] max-lg:mt-[90px] max-md:mt-[24px] max-md:w-48 max-md:font-bold"
             >
               Start Your Future Education
             </p>
             <p
-              class="rubik text-[#6F6F76] text-lg mt-[25px] w-[566px] max-2xl:w-[250px] leading-loose"
+              class="rubik text-[#6F6F76] text-lg mt-[15px] w-[566px] max-2xl:w-[276px] max-xl:mr-[20px] leading-loose max-md:leading-8"
             >
               Credibly redefine distinctive total linkage vis-a-vis multifunc
               data. Phosfluorescently impact goal-oriented strategic
             </p>
-            <!-- hero section: content button -->
             <button
-              class="rubik px-[35.5px] py-[22px] mt-[50px] max-2xl:mt-[35px] max-xl:mt-[30px] max-lg:mt-[25px] max-md:mt-[25px] mr-[24px] max-md:mb-[70px] text-white font-medium bg-[#FFA502] shadow-lg rounded-2xl shadow-yellow-500/50 hover:bg-yellow-500 active:bg-yellow-400 focus:ring-2 focus:ring-yellow-400"
+              class="hero-section-content-button rubik px-[35.5px] py-[22px] mt-[50px] max-2xl:mt-[35px] max-xl:mt-[30px] max-lg:mt-[25px] max-md:mt-[25px] mr-[24px] max-md:mb-[70px] text-white font-medium bg-[#FFA502] shadow-lg rounded-2xl shadow-yellow-500/50 hover:bg-yellow-500 active:bg-yellow-400 focus:ring-2 focus:ring-yellow-400"
             >
               Discover More
             </button>
-          </section>
-
-          <!-- hero section: pictures -->
-          <!-- hero section: whole pictures wrapper -->
+          </article>
 
           <div
-            class="relative max-md:mx-4 mt-[100px] max-md:mt-20 mr-[145px] max-2xl:mr-[120px] max-xl:mr-[100px] max-lg:mr-[50px] max-md:mr-[10px] max-ms:mr-[10px]"
+            class="hero-section-picture-wrapper relative max-md:mx-4 mt-[100px] max-md:mt-20 mr-[145px] max-2xl:mr-[120px] max-xl:mr-[100px] max-lg:mr-[50px] max-md:mr-[10px] max-ms:mr-[10px]"
           >
-            <!-- hero section: pictures center (sunrise1.svg) |>|>|> -->
-
             <img
-              class="relative max-w-[674px] max-2xl:max-w-2xl max-xl:max-w-xl max-lg:max-w-lg max-md:max-w-[355px]"
+              class="hero-section-picture-center relative max-w-[674px] max-2xl:max-w-2xl max-xl:max-w-xl max-lg:max-w-[425px] max-md:max-w-[335px]"
               src="./image/section1/sunrise1.svg"
               alt="sunrise image"
             />
-            <!-- hero section: pictures top left -->
             <img
-              class="absolute bottom-2/4 right-2/3"
+              class="hero-section-picture-tl absolute bottom-2/4 right-2/3"
               src="./image/section1/congratulation1.svg"
               alt="new email image"
               width="40%"
               height="auto"
             />
-            <!-- hero section: pictures top right -->
             <img
-              class="absolute bottom-2/4 left-2/3"
+              class="hero-section-picture-tr absolute bottom-2/4 left-2/3"
               src="./image/section1/happy-students-number1.svg"
               alt="student testimonial image"
               width="40%"
@@ -141,7 +124,7 @@
             />
           </div>
         </div>
-      </div>
+      </section>
 
       <!--เริ่มเขียนใต้นี้ view -->
       <section
