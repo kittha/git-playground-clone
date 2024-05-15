@@ -19,7 +19,7 @@ clone_dir_name="git-playground-clone"
 
 
 echo "***** INIT GITHUB CRUD CLONING SCRIPT *****" &&
-echo "***** CREATE BY: NAT AT 2024-05-15T0855 *****" &&
+echo "***** CREATE BY: KITTHA AT 2024-05-15T0855 *****" &&
 echo "***** THIS SCRIPT WILL CLEARING REMOTE REPO *****" &&
 echo "***** AND FETCH FRESH NEW REMOTE REPO INTO LOCAL DIR *****" &&
 
@@ -68,7 +68,7 @@ echo "----- clearing unused local template dir successful -----" &&
 
 echo "##### download fresh remote clone dir from remote repo #####" &&
 git clone $clone_link && 
-echo "***** clone-nat.sh script run successful! *****" &&
+echo "***** clone-kittha.sh script run successful! *****" &&
 
 echo "##### run vs code #####" &&
 cd ./$clone_dir_name &&  
